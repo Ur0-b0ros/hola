@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:HeroesAPI}",
+            "name": "Debug HeroesAPI",
+            "target": "HeroesAPI",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug HeroesAPI"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:HeroesAPI}",
+            "name": "Release HeroesAPI",
+            "target": "HeroesAPI",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release HeroesAPI"
+        }
+    ]
+}

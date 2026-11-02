@@ -1,0 +1,125 @@
+{
+  "": {
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/primary.swiftdeps"
+  },
+  "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/DemoServer.swift": {
+    "dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/DemoServer.d",
+    "object": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/DemoServer.swift.o",
+    "swiftmodule": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/DemoServer~partial.swiftmodule",
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/DemoServer.swiftdeps",
+    "diagnostics": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/DemoServer.dia"  },
+  "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Errno.swift": {
+    "dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Errno.d",
+    "object": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Errno.swift.o",
+    "swiftmodule": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Errno~partial.swiftmodule",
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Errno.swiftdeps",
+    "diagnostics": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Errno.dia"  },
+  "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Files.swift": {
+    "dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Files.d",
+    "object": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Files.swift.o",
+    "swiftmodule": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Files~partial.swiftmodule",
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Files.swiftdeps",
+    "diagnostics": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Files.dia"  },
+  "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpParser.swift": {
+    "dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpParser.d",
+    "object": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpParser.swift.o",
+    "swiftmodule": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpParser~partial.swiftmodule",
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpParser.swiftdeps",
+    "diagnostics": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpParser.dia"  },
+  "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpRequest.swift": {
+    "dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpRequest.d",
+    "object": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpRequest.swift.o",
+    "swiftmodule": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpRequest~partial.swiftmodule",
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpRequest.swiftdeps",
+    "diagnostics": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpRequest.dia"  },
+  "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpResponse.swift": {
+    "dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpResponse.d",
+    "object": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpResponse.swift.o",
+    "swiftmodule": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpResponse~partial.swiftmodule",
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpResponse.swiftdeps",
+    "diagnostics": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpResponse.dia"  },
+  "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpRouter.swift": {
+    "dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpRouter.d",
+    "object": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpRouter.swift.o",
+    "swiftmodule": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpRouter~partial.swiftmodule",
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpRouter.swiftdeps",
+    "diagnostics": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpRouter.dia"  },
+  "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpServer.swift": {
+    "dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpServer.d",
+    "object": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpServer.swift.o",
+    "swiftmodule": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpServer~partial.swiftmodule",
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpServer.swiftdeps",
+    "diagnostics": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpServer.dia"  },
+  "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpServerIO.swift": {
+    "dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpServerIO.d",
+    "object": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpServerIO.swift.o",
+    "swiftmodule": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpServerIO~partial.swiftmodule",
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpServerIO.swiftdeps",
+    "diagnostics": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpServerIO.dia"  },
+  "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/MimeTypes.swift": {
+    "dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/MimeTypes.d",
+    "object": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/MimeTypes.swift.o",
+    "swiftmodule": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/MimeTypes~partial.swiftmodule",
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/MimeTypes.swiftdeps",
+    "diagnostics": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/MimeTypes.dia"  },
+  "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Process.swift": {
+    "dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Process.d",
+    "object": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Process.swift.o",
+    "swiftmodule": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Process~partial.swiftmodule",
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Process.swiftdeps",
+    "diagnostics": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Process.dia"  },
+  "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Scopes.swift": {
+    "dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Scopes.d",
+    "object": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Scopes.swift.o",
+    "swiftmodule": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Scopes~partial.swiftmodule",
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Scopes.swiftdeps",
+    "diagnostics": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Scopes.dia"  },
+  "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Socket+File.swift": {
+    "dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Socket+File.d",
+    "object": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Socket+File.swift.o",
+    "swiftmodule": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Socket+File~partial.swiftmodule",
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Socket+File.swiftdeps",
+    "diagnostics": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Socket+File.dia"  },
+  "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Socket+Server.swift": {
+    "dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Socket+Server.d",
+    "object": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Socket+Server.swift.o",
+    "swiftmodule": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Socket+Server~partial.swiftmodule",
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Socket+Server.swiftdeps",
+    "diagnostics": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Socket+Server.dia"  },
+  "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Socket.swift": {
+    "dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Socket.d",
+    "object": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Socket.swift.o",
+    "swiftmodule": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Socket~partial.swiftmodule",
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Socket.swiftdeps",
+    "diagnostics": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Socket.dia"  },
+  "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+BASE64.swift": {
+    "dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+BASE64.d",
+    "object": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+BASE64.swift.o",
+    "swiftmodule": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+BASE64~partial.swiftmodule",
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+BASE64.swiftdeps",
+    "diagnostics": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+BASE64.dia"  },
+  "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+File.swift": {
+    "dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+File.d",
+    "object": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+File.swift.o",
+    "swiftmodule": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+File~partial.swiftmodule",
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+File.swiftdeps",
+    "diagnostics": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+File.dia"  },
+  "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+Misc.swift": {
+    "dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+Misc.d",
+    "object": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+Misc.swift.o",
+    "swiftmodule": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+Misc~partial.swiftmodule",
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+Misc.swiftdeps",
+    "diagnostics": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+Misc.dia"  },
+  "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+SHA1.swift": {
+    "dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+SHA1.d",
+    "object": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+SHA1.swift.o",
+    "swiftmodule": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+SHA1~partial.swiftmodule",
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+SHA1.swiftdeps",
+    "diagnostics": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+SHA1.dia"  },
+  "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/WebSockets.swift": {
+    "dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/WebSockets.d",
+    "object": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/WebSockets.swift.o",
+    "swiftmodule": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/WebSockets~partial.swiftmodule",
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/WebSockets.swiftdeps",
+    "diagnostics": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/WebSockets.dia"  }
+}

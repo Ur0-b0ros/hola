@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'HeroesAPI-product' in project 'HeroesAPI'
+➜ Explicit dependency on target 'Swifter-product' in project 'Swifter'
+Target 'Swifter-product' in project 'Swifter'
+➜ Explicit dependency on target 'Swifter' in project 'Swifter'
+Target 'Swifter' in project 'Swifter' (no dependencies)

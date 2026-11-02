@@ -1,0 +1,19 @@
+{
+  "" : {
+    "diagnostics" : "/home/d3rm/HeroesAPI/.build/out/Intermediates.noindex/HeroesAPI.build/Debug-linux-x86_64/HeroesAPI-p.build/Objects-normal/x86_64/HeroesAPI-primary.dia",
+    "emit-module-dependencies" : "/home/d3rm/HeroesAPI/.build/out/Intermediates.noindex/HeroesAPI.build/Debug-linux-x86_64/HeroesAPI-p.build/Objects-normal/x86_64/HeroesAPI-primary-emit-module.d",
+    "emit-module-diagnostics" : "/home/d3rm/HeroesAPI/.build/out/Intermediates.noindex/HeroesAPI.build/Debug-linux-x86_64/HeroesAPI-p.build/Objects-normal/x86_64/HeroesAPI-primary-emit-module.dia",
+    "pch" : "/home/d3rm/HeroesAPI/.build/out/Intermediates.noindex/HeroesAPI.build/Debug-linux-x86_64/HeroesAPI-p.build/Objects-normal/x86_64/HeroesAPI-primary-Bridging-header.pch",
+    "swift-dependencies" : "/home/d3rm/HeroesAPI/.build/out/Intermediates.noindex/HeroesAPI.build/Debug-linux-x86_64/HeroesAPI-p.build/Objects-normal/x86_64/HeroesAPI-primary.swiftdeps"
+  },
+  "/home/d3rm/HeroesAPI/Sources/HeroesAPI/main.swift" : {
+    "const-values" : "/home/d3rm/HeroesAPI/.build/out/Intermediates.noindex/HeroesAPI.build/Debug-linux-x86_64/HeroesAPI-p.build/Objects-normal/x86_64/main.swiftconstvalues",
+    "dependencies" : "/home/d3rm/HeroesAPI/.build/out/Intermediates.noindex/HeroesAPI.build/Debug-linux-x86_64/HeroesAPI-p.build/Objects-normal/x86_64/main.d",
+    "diagnostics" : "/home/d3rm/HeroesAPI/.build/out/Intermediates.noindex/HeroesAPI.build/Debug-linux-x86_64/HeroesAPI-p.build/Objects-normal/x86_64/main.dia",
+    "index-unit-output-path" : "/HeroesAPI.build/Debug-linux-x86_64/HeroesAPI-p.build/Objects-normal/x86_64/main.o",
+    "llvm-bc" : "/home/d3rm/HeroesAPI/.build/out/Intermediates.noindex/HeroesAPI.build/Debug-linux-x86_64/HeroesAPI-p.build/Objects-normal/x86_64/main.bc",
+    "object" : "/home/d3rm/HeroesAPI/.build/out/Intermediates.noindex/HeroesAPI.build/Debug-linux-x86_64/HeroesAPI-p.build/Objects-normal/x86_64/main.o",
+    "swift-dependencies" : "/home/d3rm/HeroesAPI/.build/out/Intermediates.noindex/HeroesAPI.build/Debug-linux-x86_64/HeroesAPI-p.build/Objects-normal/x86_64/main.swiftdeps",
+    "swiftmodule" : "/home/d3rm/HeroesAPI/.build/out/Intermediates.noindex/HeroesAPI.build/Debug-linux-x86_64/HeroesAPI-p.build/Objects-normal/x86_64/main~partial.swiftmodule"
+  }
+}

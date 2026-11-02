@@ -1,0 +1,85 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "Example-x86_64-unknown-linux-gnu-debug.module": ["<Example-x86_64-unknown-linux-gnu-debug.module>"]
+  "HeroesAPI-x86_64-unknown-linux-gnu-debug.module": ["<HeroesAPI-x86_64-unknown-linux-gnu-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "Swifter-x86_64-unknown-linux-gnu-debug.module": ["<Swifter-x86_64-unknown-linux-gnu-debug.module>"]
+  "main": ["<HeroesAPI-x86_64-unknown-linux-gnu-debug.module>"]
+  "test": ["<HeroesAPI-x86_64-unknown-linux-gnu-debug.module>"]
+default: "main"
+nodes:
+  "/home/d3rm/HeroesAPI/Sources/HeroesAPI/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Example.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/Example/main.swift"]
+    outputs: ["/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Example.build/sources"]
+    description: "Write auxiliary file /home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Example.build/sources"
+
+  "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/HeroesAPI.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/home/d3rm/HeroesAPI/Sources/HeroesAPI/main.swift"]
+    outputs: ["/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/HeroesAPI.build/sources"]
+    description: "Write auxiliary file /home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/HeroesAPI.build/sources"
+
+  "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/DemoServer.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Errno.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Files.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpParser.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpRequest.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpResponse.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpRouter.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpServer.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpServerIO.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/MimeTypes.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Process.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Scopes.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Socket+File.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Socket+Server.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Socket.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+BASE64.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+File.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+Misc.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+SHA1.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/WebSockets.swift"]
+    outputs: ["/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/sources"]
+    description: "Write auxiliary file /home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/sources"
+
+  "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/swift-version-3579CD879F41AFDF.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/home/d3rm/.local/share/swiftly/toolchains/6.4.0/usr/bin/swiftc"]
+    outputs: ["/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/swift-version-3579CD879F41AFDF.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/swift-version-3579CD879F41AFDF.txt"
+
+  "<Example-x86_64-unknown-linux-gnu-debug.module>":
+    tool: phony
+    inputs: ["/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Example.build/Example.swiftmodule"]
+    outputs: ["<Example-x86_64-unknown-linux-gnu-debug.module>"]
+
+  "<HeroesAPI-x86_64-unknown-linux-gnu-debug.module>":
+    tool: phony
+    inputs: ["/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules/HeroesAPI.swiftmodule"]
+    outputs: ["<HeroesAPI-x86_64-unknown-linux-gnu-debug.module>"]
+
+  "<Swifter-x86_64-unknown-linux-gnu-debug.module>":
+    tool: phony
+    inputs: ["/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules/Swifter.swiftmodule"]
+    outputs: ["<Swifter-x86_64-unknown-linux-gnu-debug.module>"]
+
+  "C.Example-x86_64-unknown-linux-gnu-debug.module":
+    tool: shell
+    inputs: ["/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/Example/main.swift","/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/swift-version-3579CD879F41AFDF.txt","/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules/Swifter.swiftmodule","/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Example.build/sources"]
+    outputs: ["/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Example.build/Example.swiftmodule"]
+    description: "Compiling Swift Module 'Example' (1 sources)"
+    args: ["/home/d3rm/.local/share/swiftly/toolchains/6.4.0/usr/bin/swiftc","-module-name","Example","-emit-dependencies","-emit-module","-emit-module-path","/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Example.build/Example.swiftmodule","-output-file-map","/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Example.build/output-file-map.json","-incremental","@/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Example.build/sources","-I","/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules","-target","x86_64-unknown-linux-gnu","-incremental","-enable-batch-mode","-serialize-diagnostics","-Onone","-enable-testing","-j4","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/ModuleCache","-parseable-output","-swift-version","5","-Xfrontend","-experimental-lazy-typecheck","-Xfrontend","-experimental-skip-all-function-bodies","-Xfrontend","-experimental-allow-module-with-compiler-errors","-Xfrontend","-empty-abi-descriptor","-g","-Xcc","-fPIC","-Xcc","-g","-suppress-warnings","-Xcc","-fno-omit-frame-pointer"]
+
+  "C.HeroesAPI-x86_64-unknown-linux-gnu-debug.module":
+    tool: shell
+    inputs: ["/home/d3rm/HeroesAPI/Sources/HeroesAPI/main.swift","/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/swift-version-3579CD879F41AFDF.txt","/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules/Swifter.swiftmodule","/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/HeroesAPI.build/sources"]
+    outputs: ["/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules/HeroesAPI.swiftmodule"]
+    description: "Compiling Swift Module 'HeroesAPI' (1 sources)"
+    args: ["/home/d3rm/.local/share/swiftly/toolchains/6.4.0/usr/bin/swiftc","-module-name","HeroesAPI","-emit-dependencies","-emit-module","-emit-module-path","/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules/HeroesAPI.swiftmodule","-output-file-map","/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/HeroesAPI.build/output-file-map.json","-incremental","@/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/HeroesAPI.build/sources","-I","/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules","-target","x86_64-unknown-linux-gnu","-incremental","-enable-batch-mode","-serialize-diagnostics","-Onone","-enable-testing","-j4","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","HeroesAPI_main","-swift-version","5","-Xfrontend","-experimental-lazy-typecheck","-Xfrontend","-experimental-skip-all-function-bodies","-Xfrontend","-experimental-allow-module-with-compiler-errors","-Xfrontend","-empty-abi-descriptor","-g","-Xcc","-fPIC","-Xcc","-g","-package-name","heroesapi","-Xcc","-fno-omit-frame-pointer"]
+
+  "C.Swifter-x86_64-unknown-linux-gnu-debug.module":
+    tool: shell
+    inputs: ["/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/DemoServer.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Errno.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Files.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpParser.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpRequest.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpResponse.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpRouter.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpServer.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpServerIO.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/MimeTypes.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Process.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Scopes.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Socket+File.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Socket+Server.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Socket.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+BASE64.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+File.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+Misc.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+SHA1.swift","/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/WebSockets.swift","/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/swift-version-3579CD879F41AFDF.txt","/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/sources"]
+    outputs: ["/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules/Swifter.swiftmodule"]
+    description: "Compiling Swift Module 'Swifter' (20 sources)"
+    args: ["/home/d3rm/.local/share/swiftly/toolchains/6.4.0/usr/bin/swiftc","-module-name","Swifter","-emit-dependencies","-emit-module","-emit-module-path","/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules/Swifter.swiftmodule","-output-file-map","/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/output-file-map.json","-parse-as-library","-incremental","@/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/sources","-I","/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules","-target","x86_64-unknown-linux-gnu","-incremental","-enable-batch-mode","-serialize-diagnostics","-Onone","-enable-testing","-j4","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/include/Swifter-Swift.h","-swift-version","5","-Xfrontend","-experimental-lazy-typecheck","-Xfrontend","-experimental-skip-all-function-bodies","-Xfrontend","-experimental-allow-module-with-compiler-errors","-Xfrontend","-empty-abi-descriptor","-g","-Xcc","-fPIC","-Xcc","-g","-suppress-warnings","-Xcc","-fno-omit-frame-pointer"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/home/d3rm/HeroesAPI/Sources/HeroesAPI/","/home/d3rm/HeroesAPI/Package.swift","/home/d3rm/HeroesAPI/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

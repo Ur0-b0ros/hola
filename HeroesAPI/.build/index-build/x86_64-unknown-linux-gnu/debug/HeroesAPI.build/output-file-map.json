@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/HeroesAPI.build/primary.swiftdeps"
+  },
+  "/home/d3rm/HeroesAPI/Sources/HeroesAPI/main.swift": {
+    "dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/HeroesAPI.build/main.d",
+    "object": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/HeroesAPI.build/main.swift.o",
+    "swiftmodule": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/HeroesAPI.build/main~partial.swiftmodule",
+    "swift-dependencies": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/HeroesAPI.build/main.swiftdeps",
+    "diagnostics": "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/HeroesAPI.build/main.dia"  }
+}

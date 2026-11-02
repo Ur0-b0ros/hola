@@ -1,0 +1,690 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Example-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/home/d3rm/.local/share/swiftly/toolchains/6.4.0/usr/bin/swiftc",
+      "fileList" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Example.build/sources",
+      "importPath" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/Example/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/swift-version-3579CD879F41AFDF.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules/Swifter.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Example.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "Example",
+      "moduleOutputPath" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Example.build/Example.swiftmodule",
+      "objects" : [
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Example.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-suppress-warnings",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Example.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Example.build/Example.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/Example/main.swift"
+      ],
+      "tempsPath" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Example.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.HeroesAPI-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/home/d3rm/.local/share/swiftly/toolchains/6.4.0/usr/bin/swiftc",
+      "fileList" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/HeroesAPI.build/sources",
+      "importPath" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/Sources/HeroesAPI/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/swift-version-3579CD879F41AFDF.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules/Swifter.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/HeroesAPI.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "HeroesAPI",
+      "moduleOutputPath" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules/HeroesAPI.swiftmodule",
+      "objects" : [
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/HeroesAPI.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "HeroesAPI_main",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "heroesapi",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/HeroesAPI.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules/HeroesAPI.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/home/d3rm/HeroesAPI/Sources/HeroesAPI/main.swift"
+      ],
+      "tempsPath" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/HeroesAPI.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.Swifter-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/home/d3rm/.local/share/swiftly/toolchains/6.4.0/usr/bin/swiftc",
+      "fileList" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/sources",
+      "importPath" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/DemoServer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Errno.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Files.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpRouter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpServer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpServerIO.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/MimeTypes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Process.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Scopes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Socket+File.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Socket+Server.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Socket.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+BASE64.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+File.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+Misc.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+SHA1.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/WebSockets.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/swift-version-3579CD879F41AFDF.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Swifter",
+      "moduleOutputPath" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules/Swifter.swiftmodule",
+      "objects" : [
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/DemoServer.swift.o",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Errno.swift.o",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Files.swift.o",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpParser.swift.o",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpRequest.swift.o",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpResponse.swift.o",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpRouter.swift.o",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpServer.swift.o",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/HttpServerIO.swift.o",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/MimeTypes.swift.o",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Process.swift.o",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Scopes.swift.o",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Socket+File.swift.o",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Socket+Server.swift.o",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/Socket.swift.o",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+BASE64.swift.o",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+File.swift.o",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+Misc.swift.o",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/String+SHA1.swift.o",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/WebSockets.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/include/Swifter-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-suppress-warnings",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules/Swifter.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/DemoServer.swift",
+        "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Errno.swift",
+        "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Files.swift",
+        "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpParser.swift",
+        "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpRequest.swift",
+        "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpResponse.swift",
+        "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpRouter.swift",
+        "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpServer.swift",
+        "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpServerIO.swift",
+        "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/MimeTypes.swift",
+        "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Process.swift",
+        "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Scopes.swift",
+        "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Socket+File.swift",
+        "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Socket+Server.swift",
+        "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Socket.swift",
+        "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+BASE64.swift",
+        "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+File.swift",
+        "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+Misc.swift",
+        "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+SHA1.swift",
+        "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/WebSockets.swift"
+      ],
+      "tempsPath" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "Example" : [
+      "/home/d3rm/.local/share/swiftly/toolchains/6.4.0/usr/bin/swiftc",
+      "-module-name",
+      "Example",
+      "-c",
+      "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/Example/main.swift",
+      "-I",
+      "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-suppress-warnings",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/home/d3rm/.local/share/swiftly/toolchains/6.4.0/usr/bin/swiftc"
+    ],
+    "HeroesAPI" : [
+      "/home/d3rm/.local/share/swiftly/toolchains/6.4.0/usr/bin/swiftc",
+      "-module-name",
+      "HeroesAPI",
+      "-package-name",
+      "heroesapi",
+      "-c",
+      "/home/d3rm/HeroesAPI/Sources/HeroesAPI/main.swift",
+      "-I",
+      "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "HeroesAPI_main",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "heroesapi",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/home/d3rm/.local/share/swiftly/toolchains/6.4.0/usr/bin/swiftc"
+    ],
+    "Swifter" : [
+      "/home/d3rm/.local/share/swiftly/toolchains/6.4.0/usr/bin/swiftc",
+      "-module-name",
+      "Swifter",
+      "-c",
+      "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/DemoServer.swift",
+      "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Errno.swift",
+      "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Files.swift",
+      "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpParser.swift",
+      "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpRequest.swift",
+      "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpResponse.swift",
+      "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpRouter.swift",
+      "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpServer.swift",
+      "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpServerIO.swift",
+      "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/MimeTypes.swift",
+      "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Process.swift",
+      "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Scopes.swift",
+      "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Socket+File.swift",
+      "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Socket+Server.swift",
+      "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Socket.swift",
+      "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+BASE64.swift",
+      "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+File.swift",
+      "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+Misc.swift",
+      "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+SHA1.swift",
+      "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/WebSockets.swift",
+      "-I",
+      "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/include/Swifter-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-suppress-warnings",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/home/d3rm/.local/share/swiftly/toolchains/6.4.0/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Example" : [
+      "Swifter"
+    ],
+    "HeroesAPI" : [
+      "Swifter"
+    ],
+    "Swifter" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : [
+      {
+
+      }
+    ]
+  },
+  "writeCommands" : {
+    "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Example.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/Example/main.swift"
+        }
+      ],
+      "outputFilePath" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Example.build/sources"
+    },
+    "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/HeroesAPI.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/Sources/HeroesAPI/main.swift"
+        }
+      ],
+      "outputFilePath" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/HeroesAPI.build/sources"
+    },
+    "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/DemoServer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Errno.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Files.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpRouter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpServer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/HttpServerIO.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/MimeTypes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Process.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Scopes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Socket+File.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Socket+Server.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/Socket.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+BASE64.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+File.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+Misc.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/String+SHA1.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/HeroesAPI/.build/index-build/checkouts/swifter/XCode/Sources/WebSockets.swift"
+        }
+      ],
+      "outputFilePath" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/Swifter.build/sources"
+    },
+    "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/swift-version-3579CD879F41AFDF.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/d3rm/.local/share/swiftly/toolchains/6.4.0/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/home/d3rm/HeroesAPI/.build/index-build/x86_64-unknown-linux-gnu/debug/swift-version-3579CD879F41AFDF.txt"
+    }
+  }
+}

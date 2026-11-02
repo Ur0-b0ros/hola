@@ -1,0 +1,37 @@
+{
+  "\/home\/d3rm\/HeroesAPI\/.build\/checkouts\/swifter\/XCode\/Sources\/DemoServer.swift" : {
+    "const-values" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/DemoServer.swiftconstvalues",
+    "dependencies" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/DemoServer.d",
+    "diagnostics" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/DemoServer.dia",
+    "object" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/DemoServer.o",
+    "swift-dependencies" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/DemoServer.swiftdeps"
+  },
+  "\/home\/d3rm\/HeroesAPI\/.build\/checkouts\/swifter\/XCode\/Sources\/Errno.swift" : {
+    "const-values" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/Errno.swiftconstvalues",
+    "dependencies" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/Errno.d",
+    "diagnostics" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/Errno.dia",
+    "object" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/Errno.o",
+    "swift-dependencies" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/Errno.swiftdeps"
+  },
+  "\/home\/d3rm\/HeroesAPI\/.build\/checkouts\/swifter\/XCode\/Sources\/Files.swift" : {
+    "const-values" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/Files.swiftconstvalues",
+    "dependencies" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/Files.d",
+    "diagnostics" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/Files.dia",
+    "object" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/Files.o",
+    "swift-dependencies" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/Files.swiftdeps"
+  },
+  "\/home\/d3rm\/HeroesAPI\/.build\/checkouts\/swifter\/XCode\/Sources\/HttpParser.swift" : {
+    "const-values" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/HttpParser.swiftconstvalues",
+    "dependencies" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/HttpParser.d",
+    "diagnostics" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/HttpParser.dia",
+    "object" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/HttpParser.o",
+    "swift-dependencies" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/HttpParser.swiftdeps"
+  },
+  "\/home\/d3rm\/HeroesAPI\/.build\/checkouts\/swifter\/XCode\/Sources\/HttpRequest.swift" : {
+    "const-values" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/HttpRequest.swiftconstvalues",
+    "dependencies" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/HttpRequest.d",
+    "diagnostics" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/HttpRequest.dia",
+    "object" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/HttpRequest.o",
+    "swift-dependencies" : "\/home\/d3rm\/HeroesAPI\/.build\/out\/Intermediates.noindex\/Swifter.build\/Debug-linux-x86_64\/Swifter-t.build\/Objects-normal\/x86_64\/HttpRequest.swiftdeps"
+  }
+}
